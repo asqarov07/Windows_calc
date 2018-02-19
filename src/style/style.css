@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.02.2018, 23:49:44
+    Author     : User
+*/
+.button {
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-font-size:20px;
+    -fx-focus-traversable: false;
+}
+.button:hover {
+    -fx-background-color:grey;
+    -fx-text-fill:#ffffff;
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+}
+.button Text {
+    -fx-fill: white;
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+#div{
+    -fx-background-color:#91490f; 
+    -fx-text-fill: white;
+}
+#mult{
+    -fx-background-color:#91490f;
+    -fx-text-fill: white;
+}
+#plus{
+    -fx-background-color:#91490f;
+    -fx-text-fill: white;
+}
+#minus{
+    -fx-background-color:#91490f; 
+    -fx-text-fill: white;
+}
+#eq{
+    -fx-background-color:#5E7979; 
+    -fx-text-fill: white;
+}
+#AC{
+    -fx-background-color:#5E7979; 
+    -fx-text-fill: white;
+}
+#AC:hover {
+    -fx-background-color:grey;
+}
+#mult:hover {
+    -fx-background-color:grey;
+}
+#div:hover {
+    -fx-background-color:grey;
+}
+#plus:hover {
+    -fx-background-color:grey;
+}
+#minus:hover {
+    -fx-background-color:grey;
+}
+#eq:hover {
+    -fx-background-color:grey;
+}
+.root{
+    -fx-background-color:#666666;
+}
+.label{
+    -fx-background-color:white;
+}
+#lab{
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+}
+#labMain{
+    -fx-border-radius: 0 0 10 10;
+    -fx-background-radius: 0 0 10 10;
+}
